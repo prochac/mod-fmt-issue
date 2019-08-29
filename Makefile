@@ -1,16 +1,14 @@
 all: wrong fine
 
 wrong:
-	cat go.mod
 	go mod tidy
-	cat go.mod
+	git status --porcelain
 	go fmt .
-	cat go.mod
+	git status --porcelain
 
 fine:
-	cat go.mod
 	go mod tidy
-	cat go.mod
+	git status --porcelain
 	gofmt -l -w .
-	cat go.mod
+	git status --porcelain
 

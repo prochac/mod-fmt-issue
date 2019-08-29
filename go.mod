@@ -6,5 +6,5 @@ replace github.com/ugorji/go v1.1.4 => github.com/ugorji/go v0.0.0-2018102219040
 
 require (
 	github.com/gin-gonic/gin v1.4.0
-	github.com/ugorji/go v1.1.7 // indirect
+	github.com/ugorji/go/codec v1.1.7 // indirect
 )
